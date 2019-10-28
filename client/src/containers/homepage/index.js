@@ -1,3 +1,4 @@
-import HomePage from "./homepage.component";
+import { HomePage}  from "./homepage.component";
+import { withRouter } from 'react-router-dom';
 
-export default HomePage;
+export default withRouter(HomePage);

@@ -3,10 +3,8 @@ import MenuList from '../menu-list';
 
 import './homepage.component.scss';
 
-const HomePage = () => (
+export const HomePage = () => (
     <div className="homepage">
         <MenuList />
     </div>
 );
-
-export default HomePage;
